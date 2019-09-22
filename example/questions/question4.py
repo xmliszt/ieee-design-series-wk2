@@ -9,12 +9,12 @@ def question4(grade):
             ans = 0
             for i in inp_list:
                 ans += float(i)
-                if ans == 21:
-                    grade += 1
-                    return grade
-                else:
-                    grade -= 1
-                    return grade
+            if ans == 21:
+                grade += 1
+                return grade
+            else:
+                grade -= 1
+                return grade
         else:
             print("Number of elements in the list does not fulfill the requirement!")
             return grade
