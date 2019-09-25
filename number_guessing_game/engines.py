@@ -25,7 +25,7 @@ def game_init():
     sleep(2)
     print("Alright! Let's begin!")
     sleep(1)
-    print("Now think of an integer from 1 to 100 in your mind. Don't tell me!")
+    print("Now think of an integer from 1 to 999 in your mind. Don't tell me!")
     sleep(3)
     print("You done? OK let me guess...")
     return name
@@ -66,5 +66,3 @@ def bigger(num, lower, upper, guessed):
             guessed.add(new_num)
             break
     return new_num, lower, guessed
-
-

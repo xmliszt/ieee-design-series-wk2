@@ -5,7 +5,7 @@ import sys
 
 if __name__ == '__main__':
     username = game_init()
-    num = randint(1, 100)  # initial guess
+    num = randint(1, 999)  # initial guess
     lower = 1  # initial lower bound
     upper = 100  # initial upper bound
     count = 0
